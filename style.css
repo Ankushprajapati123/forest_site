@@ -1,0 +1,141 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Edu NSW ACT Cursive', cursive;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.logo span {
+  color: orange;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-links li {
+  margin-left: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.823)), url('bg12.jpg');
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.info-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.127), rgba(0, 0, 0, 0.823)), url('panna6.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.info-text h2 {
+  font-size: 2.5rem;
+  text-shadow: 15px 10px 20px #000;
+}
+
+.info-text p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 20px #000;
+
+
+}
+
+.info-section1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.127), rgba(0, 0, 0, 0.823)), url('waterfall.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.info-text1 h2 {
+  font-size: 2.5rem;
+  text-shadow: 15px 10px 20px #000;
+}
+
+.info-text1 p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 20px #000;
+
+
+}

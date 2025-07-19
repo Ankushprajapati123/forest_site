@@ -1,0 +1,79 @@
+<h1>Money Plant (Epipremnum aureum)</h1>
+  <div id="one">
+    <p>Common Names:
+      Money Plant, Devils Ivy, Golden Pothos, Feng Shui Plant<br>
+      Scientific Name:
+      Epipremnum aureumq</p>
+    <img src="plas.jpg">
+  </div>
+  <h1>Introduction:</h1>
+
+  Money Plant is a popular evergreen indoor plant, widely grown in homes and offices due to its low maintenance and
+  belief that it brings good luck, wealth, and prosperity (especially in Vastu and Feng Shui traditions)
+  <hr color="black" size="4">
+  <h1> water hyacinth</h1>
+  <div id="two">
+    <p>Jalkumbhi (in English: Water hyacinth) is a fast-growing, free-floating aquatic plant. Its scientific name is
+      Eichhornia crassipes. This plant is known for its beautiful purple flowers but is often considered a harmful weed
+      in water bodies.</p>
+    <img src="pla.jpg">
+  </div>
+
+  Detailed Information about Jalkumbhi (Water Hyacinth):<br>
+
+  Scientific Name:
+
+  Eichhornia crassipes<br>
+
+  Common Names:
+
+  Water Hyacinth (English)<br>
+
+  Jalkumbhi (Hindi)<br>
+
+  Neer Kozhunnu (Malayalam)<br>
+
+  Jalparni (Sanskrit)
+
+
+  <hr color="black" size="4">
+
+  <h1> Bamboo </h1>
+
+  1. Introduction: Bamboo is a fast-growing, woody grass belonging to the Poaceae family. Although it resembles a tree,
+  it is technically a grass and is known for its strength, flexibility, and eco-friendly qualities. There are over 1,400
+  species of bamboo found across the world, particularly in Asia, Africa, and the Americas.
+  <p>
+
+
+  <div id="three">
+
+    Scientific Classification:<br>
+
+    Kingdom: Plantae<br>
+
+    Order: Poales<br>
+
+    Family: Poaceae<br>
+
+    Subfamily: Bambusoideae<br>
+
+    Common Name: amboo<br>
+    <img src="plant.jpg">
+  </div>
+
+
+
+
+  <p>Features of Bamboo:<br>
+
+    Growth Rate: One of the fastest-growing plants in the world; some species can grow up to 91 cm (35 in) per
+    day.<br><br>
+B
+    Structure: Hollow stem (called culm) with nodes and internodes.<br><br>
+
+    Height: Can range from a few feet to over 30 meters (98 feet) depending on species.<br><br>
+
+    Leaves: Long, narrow, and green with parallel venation.<br><br>
+
+    Roots: Rhizome-based underground system, which helps in quick spreading.</p>

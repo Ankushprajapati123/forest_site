@@ -1,0 +1,142 @@
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+
+     body {
+         font-family: 'Edu NSW ACT Cursive', cursive;
+     }
+
+     /* Navbar */
+     .navbar {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         background-color: rgba(0, 0, 0, 0.8);
+         padding: 10px 20px;
+         position: sticky;
+         top: 0;
+         z-index: 999;
+     }
+
+     .logo {
+         display: flex;
+         align-items: center;
+     }
+
+     .logo img {
+         width: 60px;
+         height: 60px;
+         border-radius: 50%;
+         margin-right: 10px;
+     }
+
+     .logo span {
+         color: orange;
+         font-size: 2rem;
+         font-weight: bold;
+     }
+
+     .nav-links {
+         list-style: none;
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+     .nav-links li {
+         margin-left: 15px;
+     }
+
+     .nav-links a {
+         text-decoration: none;
+         color: white;
+         font-size: 1.2rem;
+         padding: 8px 12px;
+         border-radius: 8px;
+         transition: background-color 0.3s, color 0.3s;
+     }
+
+     .nav-links a:hover {
+         background-color: white;
+         color: black;
+     }
+
+
+     .hero-section {
+         background-image: linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.257)),
+             url('about_img.jpg');
+
+         background-size: cover;
+         background-position: center;
+         height: 50vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         padding: 0 20px;
+         color: white;
+         text-shadow: 2px 2px 8px #000;
+     }
+
+     .hero-section h1 {
+         font-size: 3rem;
+         letter-spacing: 3px;
+         font-weight: 900;
+     }
+
+     /* Main content container */
+     .content {
+         max-width: 100%;
+         margin: 1px auto 10px auto;
+         padding: 0 20px;
+         background-color: rgba(20, 20, 20, 0.8);
+         border-radius: 5px;
+         box-shadow: 0 0 15px rgba(255, 140, 0, 0.7);
+     }
+
+     .content h2,
+     .content h3 {
+         color: orange;
+         margin-bottom: 15px;
+         text-decoration: underline;
+     }
+
+     .content h1 {
+         color: #ffb347;
+         margin-bottom: 20px;
+         border-bottom: 2px solid orange;
+         padding-bottom: 8px;
+     }
+
+     .content p,
+     .content ul {
+         margin-bottom: 20px;
+         color: #eee;
+         font-size: 1.1rem;
+     }
+
+     .content ul {
+         padding-left: 20px;
+         list-style-type: square;
+     }
+
+     .content ul li {
+         margin-bottom: 10px;
+     }
+
+     /* Responsive */
+     @media (max-width: 768px) {
+         .hero-section h1 {
+             font-size: 2rem;
+         }
+
+         .nav-links {
+             flex-direction: column;
+             align-items: center;
+         }
+
+         .nav-links li {
+             margin: 8px 0;
+         }
+     }
